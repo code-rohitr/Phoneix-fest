@@ -90,6 +90,10 @@ header {
   padding: 10px 35px 10px 15px;
   overflow: auto;
   background-color: var(--navbg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
 }
 header .title {
   color: var(--linkColor);
@@ -195,10 +199,13 @@ header nav .hamBurgerMenu .blocks {
 /* ================================================ */
 /* footer */
 footer {
-  width: 100%;
   min-height: 50vh;
   max-height: fit-content;
   background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
 }
 footer .logo {
   min-width: 50%;
@@ -222,6 +229,7 @@ footer .footerContent {
   font-size: 1rem;
   text-align: justify;
   white-space: pre-wrap;
+  width: 100px;
 }
 
 /* Code for responsive mode */
@@ -256,6 +264,14 @@ footer .footerContent {
     min-height: fit-content;
   }
   footer .footerContent {
-    width: 100%;
+    width: 80%;
+  }
+
+  footer .footerContent p{
+    width: 80%;
+  }
+
+  .para{
+    max-width: 80%;
   }
 }
