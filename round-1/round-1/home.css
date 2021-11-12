@@ -227,9 +227,9 @@ footer .footerContent {
   height: 100%;
   color: #ffffff;
   font-size: 1.2rem;
-  /* text-align: justify; */
+  text-align: justify;
   /* width: 100%; */
-  padding-right: 12vh;
+  padding: 12vh;
   /* white-space: pre-wrap; */
 }
 
